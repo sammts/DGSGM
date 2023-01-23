@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.dgsgm.unam.mx/</loc>
+  <lastmod>2022-10-13T18:45:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/index.html</loc>
+  <lastmod>2022-10-13T18:45:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/conocenos.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/directorio.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/bicipuma.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/pumabus.html</loc>
+  <lastmod>2022-10-06T15:24:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/estacionamientos.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/menu_archivo.html</loc>
+  <lastmod>2022-10-05T14:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/servicios.html</loc>
+  <lastmod>2022-10-05T14:37:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/brigada.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/area_coordinadora.html</loc>
+  <lastmod>2022-10-05T14:36:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.dgsgm.unam.mx/archivo.html</loc>
+  <lastmod>2022-10-06T15:24:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
