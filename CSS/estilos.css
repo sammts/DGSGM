@@ -1300,7 +1300,7 @@ th, td {
     border-radius: 30px;
 }
 
-/* Keyframes para el cambio de 9 imágenes */
+/* Keyframes para el cambio de 9 imágenes en carrusel*/
 @keyframes cambio1 {
     0% {margin-left: 0;}
     10%{margin-left: 0;}
@@ -1421,7 +1421,7 @@ th, td {
     height: 100%;
 }
 
-/* Keyframes para el cambio de 5 imágenes */
+/* Keyframes para el cambio de 5 imágenes en carrusel*/
 
 @keyframes cambio2 {
     0% {margin-left: 0;}
