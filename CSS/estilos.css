@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
 
-/*-----------------------------Circulos-----------------------------*/
+/*-----------------------------Circulos de rutas Pumabús-----------------------------*/
 
 span.verde1 {
     background: #118642;
@@ -413,25 +413,7 @@ span.verde13 {
     width: 1.6em; 
 }
 
-/*--------------------------Estilo de modal--------------------------*/
-
-/*.boton-modal{
-    padding: 40px;
-    background-color: #fff;
-}
-
-.boton-modal label{
-    padding: 10px 15px;
-    background-color: #5488a3;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-}
-
-.boton-modal label:hover {
-    background-color: #436f87;
-}*/
+/*--------------------------Desplegado de mapas, rutas pumabús--------------------------*/
 
 #btn-modal1 {
     display: none;
@@ -470,7 +452,7 @@ span.verde13 {
     display: none;
 }
 
-/*Modal de Ruta 1 - Pumabús*/
+/* Ruta 1 - Pumabús */
 
 .container-modal1 {
     width: 100%;
@@ -529,7 +511,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 2 - Pumabús*/
+/*Ruta 2 - Pumabús*/
 
 .container-modal2 {
     width: 100%;
@@ -588,7 +570,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 3 - Pumabús*/
+/*Ruta 3 - Pumabús*/
 
 .container-modal3 {
     width: 100%;
@@ -647,7 +629,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 4 - Pumabús*/
+/*Ruta 4 - Pumabús*/
 
 .container-modal4 {
     width: 100%;
@@ -706,7 +688,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 5 - Pumabús*/
+/*Ruta 5 - Pumabús*/
 
 .container-modal5 {
     width: 100%;
@@ -765,7 +747,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 6 - Pumabús*/
+/*Ruta 6 - Pumabús*/
 
 .container-modal6 {
     width: 100%;
@@ -824,7 +806,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 7 - Pumabús*/
+/*Ruta 7 - Pumabús*/
 
 .container-modal7 {
     width: 100%;
@@ -883,7 +865,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 8 - Pumabús*/
+/*Ruta 8 - Pumabús*/
 
 .container-modal8 {
     width: 100%;
@@ -942,7 +924,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 9 - Pumabús*/
+/*Ruta 9 - Pumabús*/
 
 .container-modal9 {
     width: 100%;
@@ -1001,7 +983,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 10 - Pumabús*/
+/*Ruta 10 - Pumabús*/
 
 .container-modal10 {
     width: 100%;
@@ -1060,7 +1042,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 11 - Pumabús*/
+/*Ruta 11 - Pumabús*/
 
 .container-modal11 {
     width: 100%;
@@ -1119,7 +1101,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Modal de Ruta 13 - Pumabús*/
+/*Ruta 13 - Pumabús*/
 
 .container-modal13 {
     width: 100%;
@@ -1225,7 +1207,7 @@ span.verde13 {
 }
 
 
-/*--------------------------Estilo de tabla--------------------------*/
+/*--------------------------Estilo de tabla de información Pumabús--------------------------*/
 
 .horario {
     table-layout: fixed;
@@ -1318,6 +1300,7 @@ th, td {
     border-radius: 30px;
 }
 
+/* Keyframes para el cambio de 9 imágenes */
 @keyframes cambio1 {
     0% {margin-left: 0;}
     10%{margin-left: 0;}
@@ -1437,6 +1420,8 @@ th, td {
     width: 100%;
     height: 100%;
 }
+
+/* Keyframes para el cambio de 5 imágenes */
 
 @keyframes cambio2 {
     0% {margin-left: 0;}
