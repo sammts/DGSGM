@@ -37,6 +37,11 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
 }
+.container--ind {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .column {
     width: 100%;
 }
@@ -303,7 +308,49 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
 
-/*-----------------------------Circulos de rutas Pumabús-----------------------------*/
+/*------------------------------Búsqueda------------------------------*/
+#ctn-bars-search {
+    /* position: fixed; */
+    width: 100%;
+    background: white;
+    padding: 20px;
+}
+
+#ctn-bars-search input {
+    display: block;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#box-search{
+    top: 165px;
+    width: 1200px;
+    margin: auto;
+    background: #fff;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 370px;
+    display: none;
+}
+
+#box-search li a{
+    display: block;
+    width: 1200px;
+    color: black;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#box-search li a:hover{
+    color: white;
+    background-color: #031634;
+}
+
+
+/*-----------------------------Circulos-----------------------------*/
 
 span.verde1 {
     background: #118642;
@@ -413,7 +460,25 @@ span.verde13 {
     width: 1.6em; 
 }
 
-/*--------------------------Desplegado de mapas, rutas pumabús--------------------------*/
+/*--------------------------Estilo de modal--------------------------*/
+
+/*.boton-modal{
+    padding: 40px;
+    background-color: #fff;
+}
+
+.boton-modal label{
+    padding: 10px 15px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.boton-modal label:hover {
+    background-color: #436f87;
+}*/
 
 #btn-modal1 {
     display: none;
@@ -452,7 +517,75 @@ span.verde13 {
     display: none;
 }
 
-/* Ruta 1 - Pumabús */
+#btn-mod1 {
+    display: none;
+}
+#btn-mod2 {
+    display: none;
+}
+
+/*Modal de Rutas - Buscador*/
+.container-mod1 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+}
+#btn-mod1:checked ~ .container-mod1{
+    display: flex;
+}
+#btn-mod2:checked ~ .container-mod1{
+    display: flex;
+}
+.content-mod1 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-mod1 h2 {
+    margin-bottom: 15px;
+}
+.content-mod1 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-mod1 .btn-cerrar0 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-mod1 .btn-cerrar0 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-mod1 .btn-cerrar0 label:hover {
+    background-color: #022157;
+}
+.cerrar-mod1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*Modal de Ruta 1 - Pumabús*/
 
 .container-modal1 {
     width: 100%;
@@ -479,6 +612,7 @@ span.verde13 {
     margin-bottom: 15px;
 }
 .content-modal1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px 0px;
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
@@ -511,7 +645,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 2 - Pumabús*/
+/*Modal de Ruta 2 - Pumabús*/
 
 .container-modal2 {
     width: 100%;
@@ -570,7 +704,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 3 - Pumabús*/
+/*Modal de Ruta 3 - Pumabús*/
 
 .container-modal3 {
     width: 100%;
@@ -629,7 +763,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 4 - Pumabús*/
+/*Modal de Ruta 4 - Pumabús*/
 
 .container-modal4 {
     width: 100%;
@@ -688,7 +822,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 5 - Pumabús*/
+/*Modal de Ruta 5 - Pumabús*/
 
 .container-modal5 {
     width: 100%;
@@ -747,7 +881,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 6 - Pumabús*/
+/*Modal de Ruta 6 - Pumabús*/
 
 .container-modal6 {
     width: 100%;
@@ -806,7 +940,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 7 - Pumabús*/
+/*Modal de Ruta 7 - Pumabús*/
 
 .container-modal7 {
     width: 100%;
@@ -865,7 +999,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 8 - Pumabús*/
+/*Modal de Ruta 8 - Pumabús*/
 
 .container-modal8 {
     width: 100%;
@@ -924,7 +1058,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 9 - Pumabús*/
+/*Modal de Ruta 9 - Pumabús*/
 
 .container-modal9 {
     width: 100%;
@@ -983,7 +1117,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 10 - Pumabús*/
+/*Modal de Ruta 10 - Pumabús*/
 
 .container-modal10 {
     width: 100%;
@@ -1042,7 +1176,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 11 - Pumabús*/
+/*Modal de Ruta 11 - Pumabús*/
 
 .container-modal11 {
     width: 100%;
@@ -1101,7 +1235,7 @@ span.verde13 {
     z-index: -1;
 }
 
-/*Ruta 13 - Pumabús*/
+/*Modal de Ruta 13 - Pumabús*/
 
 .container-modal13 {
     width: 100%;
@@ -1207,7 +1341,7 @@ span.verde13 {
 }
 
 
-/*--------------------------Estilo de tabla de información Pumabús--------------------------*/
+/*--------------------------Estilo de tabla--------------------------*/
 
 .horario {
     table-layout: fixed;
@@ -1267,6 +1401,8 @@ th, td {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer-bottom {
+    background: #022157;
+    color:white;
     text-align: center;
     margin: auto;
     margin-top: 15px;
@@ -1300,7 +1436,6 @@ th, td {
     border-radius: 30px;
 }
 
-/* Keyframes para el cambio de 9 imágenes en carrusel*/
 @keyframes cambio1 {
     0% {margin-left: 0;}
     10%{margin-left: 0;}
@@ -1420,8 +1555,6 @@ th, td {
     width: 100%;
     height: 100%;
 }
-
-/* Keyframes para el cambio de 5 imágenes en carrusel*/
 
 @keyframes cambio2 {
     0% {margin-left: 0;}
@@ -2210,6 +2343,47 @@ th, td {
         position: relative;
         text-align: center;
     }
+    /*------------------------------Búsqueda------------------------------*/
+    #ctn-bars-search {
+        /* position: fixed; */
+        width: 100%;
+        background: white;
+        padding: 20px;
+    }
+
+    #ctn-bars-search input {
+        display: block;
+        width: 200px;
+        margin: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #box-search{
+        top: 165px;
+        width: 350px;
+        margin: auto;
+        background: #fff;
+        list-style: none;
+        overflow: hidden;
+        margin-right: 370px;
+        display: none;
+    }
+
+    #box-search li a{
+        display: block;
+        width: 1200px;
+        color: black;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,0.1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+
+    #box-search li a:hover{
+        color: white;
+        background-color: #031634;
+    }
 }
 
 @media screen and (min-width:760px) {
@@ -2429,6 +2603,31 @@ th, td {
         transform: scale(1.09);
     }
     .main__cntcinig:before {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: #e1a523;
+        position: absolute;
+        bottom: 0;
+        transition: all .75s;
+    }
+    .main__cntindex {
+        /* margin: 15px 0; */
+        text-align: center; 
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 1.1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        line-height: 45px;
+    }
+    .main__cntindex:hover {
+        background: white;
+        color:#e1a523;
+        border-radius: 10px;
+        transform: scale(1.09);
+    }
+    .main__cntindex:before {
         content: "";
         width: 0;
         height: 2px;
@@ -4139,5 +4338,46 @@ th, td {
         padding-bottom: 60px;
         position: relative;
         text-align: center;
+    }
+    /*------------------------------Búsqueda------------------------------*/
+    #ctn-bars-search {
+        /* position: fixed; */
+        width: 100%;
+        background: white;
+        padding: 20px;
+    }
+
+    #ctn-bars-search input {
+        display: block;
+        width: 1000px;
+        margin: auto;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #box-search{
+        top: 165px;
+        width: 1200px;
+        margin: auto;
+        background: #fff;
+        list-style: none;
+        overflow: hidden;
+        margin-right: 370px;
+        display: none;
+    }
+
+    #box-search li a{
+        display: block;
+        width: 1200px;
+        color: black;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,0.1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+
+    #box-search li a:hover{
+        color: white;
+        background-color: #031634;
     }
 }
