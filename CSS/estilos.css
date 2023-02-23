@@ -462,24 +462,6 @@ span.verde13 {
 
 /*--------------------------Estilo de modal--------------------------*/
 
-/*.boton-modal{
-    padding: 40px;
-    background-color: #fff;
-}
-
-.boton-modal label{
-    padding: 10px 15px;
-    background-color: #5488a3;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-}
-
-.boton-modal label:hover {
-    background-color: #436f87;
-}*/
-
 #btn-modal1 {
     display: none;
 }
@@ -515,74 +497,6 @@ span.verde13 {
 }
 #btn-modal13 {
     display: none;
-}
-
-#btn-mod1 {
-    display: none;
-}
-#btn-mod2 {
-    display: none;
-}
-
-/*Modal de Rutas - Buscador*/
-.container-mod1 {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0; left: 0;
-    background-color: rgba(144, 148, 150, 0.8);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 3000;
-}
-#btn-mod1:checked ~ .container-mod1{
-    display: flex;
-}
-#btn-mod2:checked ~ .container-mod1{
-    display: flex;
-}
-.content-mod1 {
-    width: 100%;
-    max-width: 660px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 4px;
-}
-.content-mod1 h2 {
-    margin-bottom: 15px;
-}
-.content-mod1 p{
-    padding: 15px 0px;
-    border-top: 1px solid #dbdbdb;
-    border-bottom: 1px solid #dbdbdb;
-}
-.content-mod1 .btn-cerrar0 {
-    width: 100%;
-    font-weight: bold;
-    margin-top: 15px;
-    display: flex;
-    justify-content: flex-end;
-    border-radius: 4px;
-}
-.content-mod1 .btn-cerrar0 label {
-    padding: 7px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #b3b1b1;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 300ms ease;
-}
-.content-mod1 .btn-cerrar0 label:hover {
-    background-color: #022157;
-}
-.cerrar-mod1{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0; left: 0;
-    z-index: -1;
 }
 
 /*Modal de Ruta 1 - Pumabús*/
@@ -899,6 +813,7 @@ span.verde13 {
 }
 .content-modal6 {
     width: 100%;
+    height: 100%;
     max-width: 660px;
     padding: 20px;
     background-color: #fff;
@@ -1294,6 +1209,1705 @@ span.verde13 {
     z-index: -1;
 }
 
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana1 {
+    display: none;
+}
+
+.container-ventana1 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana1:checked ~ .container-ventana1{
+    display: flex;
+}
+.content-ventana1 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana1 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana1 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana1 .btn-cerrarventana1 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana1 .btn-cerrarventana1 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana1 .btn-cerrarventana1 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana2 {
+    display: none;
+}
+
+.container-ventana2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana2:checked ~ .container-ventana2{
+    display: flex;
+}
+.content-ventana2 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana2 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana2 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana2 .btn-cerrarventana2 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana2 .btn-cerrarventana2 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana2 .btn-cerrarventana2 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana3 {
+    display: none;
+}
+
+.container-ventana3 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana3:checked ~ .container-ventana3{
+    display: flex;
+}
+.content-ventana3 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana3 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana3 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana3 .btn-cerrarventana3 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana3 .btn-cerrarventana3 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana3 .btn-cerrarventana3 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana3{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana4 {
+    display: none;
+}
+
+.container-ventana4 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana4:checked ~ .container-ventana4{
+    display: flex;
+}
+.content-ventana4 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana4 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana4 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana4 .btn-cerrarventana4 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana4 .btn-cerrarventana4 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana4 .btn-cerrarventana4 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana4{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana5 {
+    display: none;
+}
+
+.container-ventana5 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana5:checked ~ .container-ventana5{
+    display: flex;
+}
+.content-ventana5 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana5 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana5 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana5 .btn-cerrarventana5 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana5 .btn-cerrarventana5 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana5 .btn-cerrarventana5 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana5{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana6 {
+    display: none;
+}
+
+.container-ventana6 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana6:checked ~ .container-ventana6{
+    display: flex;
+}
+.content-ventana6 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana6 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana6 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana6 .btn-cerrarventana6 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana6 .btn-cerrarventana6 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana6 .btn-cerrarventana6 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana6{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana7 {
+    display: none;
+}
+
+.container-ventana7 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana7:checked ~ .container-ventana7{
+    display: flex;
+}
+.content-ventana7 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana7 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana7 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana7 .btn-cerrarventana7 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana7 .btn-cerrarventana7 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana7 .btn-cerrarventana7 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana7{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana8 {
+    display: none;
+}
+
+.container-ventana8 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana8:checked ~ .container-ventana8{
+    display: flex;
+}
+.content-ventana8 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana8 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana8 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana8 .btn-cerrarventana8 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana8 .btn-cerrarventana8 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana8 .btn-cerrarventana8 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana8{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana9 {
+    display: none;
+}
+
+.container-ventana9 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana9:checked ~ .container-ventana9{
+    display: flex;
+}
+.content-ventana9 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana9 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana9 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana9 .btn-cerrarventana9 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana9 .btn-cerrarventana9 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana9 .btn-cerrarventana9 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana9{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana10 {
+    display: none;
+}
+
+.container-ventana10 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana10:checked ~ .container-ventana10{
+    display: flex;
+}
+.content-ventana10 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana10 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana10 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana10 .btn-cerrarventana10 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana10 .btn-cerrarventana10 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana10 .btn-cerrarventana10 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana10{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana11 {
+    display: none;
+}
+
+.container-ventana11 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana11:checked ~ .container-ventana11{
+    display: flex;
+}
+.content-ventana11 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana11 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana11 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana11 .btn-cerrarventana11 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana11 .btn-cerrarventana11 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana11 .btn-cerrarventana11 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana11{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana12 {
+    display: none;
+}
+
+.container-ventana12 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana12:checked ~ .container-ventana12{
+    display: flex;
+}
+.content-ventana12 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana12 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana12 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana12 .btn-cerrarventana12 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana12 .btn-cerrarventana12 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana12 .btn-cerrarventana12 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana12{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana13 {
+    display: none;
+}
+
+.container-ventana13 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana13:checked ~ .container-ventana13{
+    display: flex;
+}
+.content-ventana13 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana13 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana13 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana13 .btn-cerrarventana13 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana13 .btn-cerrarventana13 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana13 .btn-cerrarventana13 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana13{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana14 {
+    display: none;
+}
+
+.container-ventana14 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana14:checked ~ .container-ventana14{
+    display: flex;
+}
+.content-ventana14 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana14 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana14 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana14 .btn-cerrarventana14 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana14 .btn-cerrarventana14 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana14 .btn-cerrarventana14 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana14{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana15 {
+    display: none;
+}
+
+.container-ventana15 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana15:checked ~ .container-ventana15{
+    display: flex;
+}
+.content-ventana15 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana15 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana15 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana15 .btn-cerrarventana15 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana15 .btn-cerrarventana15 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana15 .btn-cerrarventana15 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana15{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana16 {
+    display: none;
+}
+
+.container-ventana16 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana16:checked ~ .container-ventana16{
+    display: flex;
+}
+.content-ventana16 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana16 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana16 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana16 .btn-cerrarventana16 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana16 .btn-cerrarventana16 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana16 .btn-cerrarventana16 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana16{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana17 {
+    display: none;
+}
+
+.container-ventana17 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana17:checked ~ .container-ventana17{
+    display: flex;
+}
+.content-ventana17 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana17 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana17 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana17 .btn-cerrarventana17 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana17 .btn-cerrarventana17 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana17 .btn-cerrarventana17 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana17{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana18 {
+    display: none;
+}
+
+.container-ventana18 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana18:checked ~ .container-ventana18{
+    display: flex;
+}
+.content-ventana18 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana18 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana18 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana18 .btn-cerrarventana18 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana18 .btn-cerrarventana18 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana18 .btn-cerrarventana18 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana18{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana19 {
+    display: none;
+}
+
+.container-ventana19 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana19:checked ~ .container-ventana19{
+    display: flex;
+}
+.content-ventana19 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana19 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana19 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana19 .btn-cerrarventana19 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana19 .btn-cerrarventana19 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana19 .btn-cerrarventana19 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana19{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana20 {
+    display: none;
+}
+
+.container-ventana20 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana20:checked ~ .container-ventana20{
+    display: flex;
+}
+.content-ventana20 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana20 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana20 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana20 .btn-cerrarventana20 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana20 .btn-cerrarventana20 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana20 .btn-cerrarventana20 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana20{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana21 {
+    display: none;
+}
+
+.container-ventana21 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana21:checked ~ .container-ventana21{
+    display: flex;
+}
+.content-ventana21 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana21 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana21 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana21 .btn-cerrarventana21 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana21 .btn-cerrarventana21 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana21 .btn-cerrarventana21 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana21{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana22 {
+    display: none;
+}
+
+.container-ventana22 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana22:checked ~ .container-ventana22{
+    display: flex;
+}
+.content-ventana22 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana22 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana22 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana22 .btn-cerrarventana22 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana22 .btn-cerrarventana22 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana22 .btn-cerrarventana22 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana22{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana23 {
+    display: none;
+}
+
+.container-ventana23 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana23:checked ~ .container-ventana23{
+    display: flex;
+}
+.content-ventana23 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana23 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana23 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana23 .btn-cerrarventana23 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana23 .btn-cerrarventana23 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana23 .btn-cerrarventana23 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana23{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana24 {
+    display: none;
+}
+
+.container-ventana24 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana24:checked ~ .container-ventana24{
+    display: flex;
+}
+.content-ventana24 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana24 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana24 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana24 .btn-cerrarventana24 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana24 .btn-cerrarventana24 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana24 .btn-cerrarventana24 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana24{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana25 {
+    display: none;
+}
+
+.container-ventana25 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana25:checked ~ .container-ventana25{
+    display: flex;
+}
+.content-ventana25 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana25 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana25 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana25 .btn-cerrarventana25 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana25 .btn-cerrarventana25 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana25 .btn-cerrarventana25 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana25{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana26 {
+    display: none;
+}
+
+.container-ventana26 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana26:checked ~ .container-ventana26{
+    display: flex;
+}
+.content-ventana26 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana26 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana26 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana26 .btn-cerrarventana26 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana26 .btn-cerrarventana26 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana26 .btn-cerrarventana26 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana26{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+/*----------------------------------------Modal de Búsqueda - Pumabús - ----------------------------------------*/
+
+#btn-ventana27 {
+    display: none;
+}
+
+.container-ventana27 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-ventana27:checked ~ .container-ventana27{
+    display: flex;
+}
+.content-ventana27 {
+    width: 100%;
+    max-width: 660px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-ventana27 h2 {
+    margin-bottom: 15px;
+}
+.content-ventana27 p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-ventana27 .btn-cerrarventana27 {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+}
+.content-ventana27 .btn-cerrarventana27 label {
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3b1b1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-ventana27 .btn-cerrarventana27 label:hover {
+    background-color: #022157;
+}
+.cerrar-ventana27{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
 
 /*------------------------Scroll de imágenes------------------------*/
 
@@ -2361,7 +3975,7 @@ th, td {
 
     #box-search{
         top: 165px;
-        width: 350px;
+        width: 200px;
         margin: auto;
         background: #fff;
         list-style: none;
@@ -2372,7 +3986,7 @@ th, td {
 
     #box-search li a{
         display: block;
-        width: 1200px;
+        width: 200px;
         color: black;
         padding: 10px 20px;
         background-color: rgba(0,0,0,0.1);
@@ -2382,7 +3996,7 @@ th, td {
 
     #box-search li a:hover{
         color: white;
-        background-color: #031634;
+        background-color: rgba(0,0,0,0.3);
     }
 }
 
@@ -2721,7 +4335,7 @@ th, td {
         right: 230px;
         width: 100px;
         top: 35px;
-        height: 8%;
+        height: 13%;
     }
 
     .img_cnt{
@@ -3071,6 +4685,47 @@ th, td {
         padding-bottom: 60px;
         position: relative;
         text-align: center;
+    }
+    /*------------------------------Búsqueda------------------------------*/
+    #ctn-bars-search {
+        /* position: fixed; */
+        width: 100%;
+        background: white;
+        padding: 20px;
+    }
+
+    #ctn-bars-search input {
+        display: block;
+        width: 400px;
+        margin: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #box-search{
+        top: 165px;
+        width: 700px;
+        margin: auto;
+        background: #fff;
+        list-style: none;
+        overflow: hidden;
+        margin-right: 50px;
+        display: none;
+    }
+
+    #box-search li a{
+        display: block;
+        width: 420px;
+        color: black;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,0.1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+    #box-search li a:hover{
+        color: black;
+        background-color: #031634;
     }
 }
 
@@ -3709,6 +5364,47 @@ th, td {
         padding-bottom: 60px;
         position: relative;
         text-align: center;
+    }
+    /*------------------------------Búsqueda------------------------------*/
+    #ctn-bars-search {
+        /* position: fixed; */
+        width: 100%;
+        background: white;
+        padding: 20px;
+    }
+
+    #ctn-bars-search input {
+        display: block;
+        width: 500px;
+        margin: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #box-search{
+        top: 165px;
+        width: 870px;
+        margin: auto;
+        background: #fff;
+        list-style: none;
+        overflow: hidden;
+        margin-right: 100px;
+        display: none;
+    }
+
+    #box-search li a{
+        display: block;
+        width: 420px;
+        color: black;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,0.1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+
+    #box-search li a:hover{
+        color: black;
+        background-color: #031634;
     }
 }
 
@@ -4349,7 +6045,7 @@ th, td {
 
     #ctn-bars-search input {
         display: block;
-        width: 1000px;
+        width: 600px;
         margin: auto;
         padding: 10px;
         font-size: 18px;
@@ -4357,18 +6053,18 @@ th, td {
 
     #box-search{
         top: 165px;
-        width: 1200px;
+        width: 550px;
         margin: auto;
         background: #fff;
         list-style: none;
         overflow: hidden;
-        margin-right: 370px;
+        margin-right: 700px;
         display: none;
     }
 
     #box-search li a{
         display: block;
-        width: 1200px;
+        width: 550px;
         color: black;
         padding: 10px 20px;
         background-color: rgba(0,0,0,0.1);
@@ -4377,7 +6073,7 @@ th, td {
     }
 
     #box-search li a:hover{
-        color: white;
-        background-color: #031634;
+        color: black;
+        background-color: rgba(0,0,0,0.3);
     }
 }
